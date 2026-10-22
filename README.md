@@ -90,17 +90,17 @@ silinməməsi yoxlanılır. Bunlar əlavə REST endpoint tələb etmir.
 
 İntelliJ Database panelindəki ekran görüntüləri:
 
-![Bütün 10 cədvəl](docs/screenshots/01-tables.png)
+![Bütün 10 cədvəl](docs/screenshots/01-tables-full.png)
 
-![Passport: istifadəçi ilə əlaqə və UNIQUE](docs/screenshots/02-user-passport.png)
+![Passport: istifadəçi ilə əlaqə və UNIQUE](docs/screenshots/02-user-passport-full.png)
 
-![Employee: salary CHECK və department FK](docs/screenshots/03-employees.png)
+![Employee: salary CHECK və department FK](docs/screenshots/03-employees-full.png)
 
-![Student–Course: iki FK və cüt üçün UNIQUE](docs/screenshots/04-student-course.png)
+![Student–Course: iki FK və cüt üçün UNIQUE](docs/screenshots/04-student-course-full.png)
 
-![AuthorBook: iki FK və cüt üçün UNIQUE](docs/screenshots/05-author-book.png)
+![AuthorBook: iki FK və cüt üçün UNIQUE](docs/screenshots/05-author-book-full.png)
 
-![Book: qiymət CHECK və sütunlar](docs/screenshots/06-books.png)
+![Book: qiymət CHECK və sütunlar](docs/screenshots/06-books-full.png)
 
 ## Asılılıqlar
 
