@@ -92,7 +92,7 @@ silinməməsi yoxlanılır. Bunlar əlavə REST endpoint tələb etmir.
 
 ![Bütün 10 cədvəl](docs/screenshots/01-tables.png)
 
-![User və Passport sütunları](docs/screenshots/02-user-passport.png)
+![Passport: istifadəçi ilə əlaqə və UNIQUE](docs/screenshots/02-user-passport.png)
 
 ![Employee: salary CHECK və department FK](docs/screenshots/03-employees.png)
 
