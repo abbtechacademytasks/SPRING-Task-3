@@ -1,0 +1,24 @@
+name: spring-task-3
+
+services:
+  postgres:
+    image: postgres:17
+    container_name: spring-task-3-postgres
+    environment:
+      POSTGRES_DB: task19_db
+      POSTGRES_USER: task19_user
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U task19_user -d task19_db"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 5s
+
+volumes:
+  postgres_data:
+    name: spring-task-3-postgres-data
